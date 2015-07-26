@@ -1,6 +1,6 @@
 
 $trimMap = {"ing" => "ine"}
-$wordMap = {"am" => "em"}
+$wordMap = {"am" => "em", "do" => "does"}
 
 def stupify(sentence, iterations)
     words = sentence.split(" ")
